@@ -13,7 +13,7 @@ function App() {
   
   return (
     <div className="App">
-      
+      Navbar here
       <Routes>
         <Route path="/mockman" element={<Mockman />}/>
         <Route path="/" element={<HomePage />}/>
