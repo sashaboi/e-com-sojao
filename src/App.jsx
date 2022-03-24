@@ -8,12 +8,12 @@ import WishList from "./pages/WishList";
 import Cart from "./pages/Cart";
 import Products from "./pages/Products";
 import Card from "./pages/components/Card";
-
+import Navbar from './pages/components/Navbar'
 function App() {
   
   return (
     <div className="App">
-      Navbar here
+      <Navbar />
       <Routes>
         <Route path="/mockman" element={<Mockman />}/>
         <Route path="/" element={<HomePage />}/>

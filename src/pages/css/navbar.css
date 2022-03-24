@@ -1,0 +1,22 @@
+.navbar,.grid-easy{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.navbar ul {
+    display: flex;
+    width: 800px;
+    justify-content:center;
+    align-items: center;
+    list-style: none;
+    background-color: rgba(44, 70, 204,1);
+    padding: 10px;
+    color: white;
+    padding-left: 20px;
+}
+.navbar .rightmenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+}
