@@ -16,10 +16,14 @@ return (
         <li>
             <h2>Sojao Store</h2>
         </li>
-        <ul class="rightmenu">
+        <ul className="rightmenu">
             <li><Link to="/"> Home </Link> </li>
+            <li><Link to="/mockman"> Mockman </Link> </li>
             <li><Link to="/cart"> Cart </Link>{cartquantity}  </li>
-            <li><Link to="/products"> Products </Link>s</li>
+            <li><Link to="/wishlist"> Wishlist </Link> </li>
+            <li><Link to="/products"> Products </Link></li>
+            <li><Link to="/Login"> Login </Link></li>
+            <li><Link to="/Signup"> Signup </Link></li>
             
         </ul>
     </ul>

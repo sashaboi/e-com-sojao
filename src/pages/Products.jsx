@@ -21,7 +21,7 @@ export default function Products()  {
   return (
     <div>Products
       <h3 style={{display : loading}} >Loading</h3>
-        {products.length && products.map((obj) => <li>{obj.title}<button onClick={()=>{dispatch({type:"addtocart",payload:obj})}} >test</button></li>)}
+        {products.length && products.map((obj) => <li>{obj.title}<button onClick={()=>{dispatch({type:"addtocart",payload:obj})}} >add to cart</button></li>)}
         Cart
        
         {state.length && state.map((obj) => <li>{obj.title} {obj.count} </li>)}
